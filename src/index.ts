@@ -7,10 +7,10 @@ export const example = (input: string): string => {
   'a'.localeCompare('b');
   console.log('stopped here');
   const b = [...a];
-  const test = '3'
+  const test = '3';
   a.reverse();
   return `Hello, ${input}!`;
-}
+};
 
 // For demonstration purposes, we'll log something to the console
 console.log(example('TDDDCD'));

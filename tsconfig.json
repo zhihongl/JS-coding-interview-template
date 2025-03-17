@@ -113,7 +113,8 @@
     "outDir": "./dist",
     "sourceMap": true
   },
+  "ignoreDiagnostics": [2835],
   "ts-node": {
     "esm": true
-  }
+  },
 }
