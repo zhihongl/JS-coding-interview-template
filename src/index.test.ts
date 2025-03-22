@@ -1,3 +1,4 @@
+// @ts-ignore 2835
 import { example } from './index';
 
 describe('Example function', () => {
