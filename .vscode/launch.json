@@ -23,13 +23,16 @@
             "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/jest",
             "args": [
                 "--runInBand",
+                "--watchAll=false",
                 "--config",
                 "${workspaceFolder}/jest.config.js",
-                "${file}"
             ],
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "sourceMaps": true
+            "sourceMaps": true,
+            "skipFiles": [
+                "node_modules/**"
+            ]
         }
     ]
 }
