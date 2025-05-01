@@ -1,8 +1,11 @@
 // Your implementation code goes here
-export const example = (input: string): string => {
-  return `Hello, ${input}!`;
-};
+class Test {
+  constructor() {
+  }
 
-// For demonstration purposes, we'll log something to the console
-console.log(example('TDDDCD'));
-console.log(example('testing'));
+  greeting(msg: string): string {
+    return `Hello ${msg}!`;
+  }
+}
+
+export { Test };

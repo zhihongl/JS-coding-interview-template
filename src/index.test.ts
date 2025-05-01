@@ -1,9 +1,10 @@
 // @ts-ignore 2835
-import { example } from './index';
+import { Test } from './index';
 
-describe('Example function', () => {
+describe('Test Class', () => {
   it('should greet the input', () => {
-    expect(example('TDD')).toBe('Hello, TDD!');
-    expect(example('TDD')).toEqual('Hello, TDD!');
+    const test = new Test();
+    const result = test.greeting('TDD');
+    expect(result).toBe('Hello TDD!');
   });
 });
